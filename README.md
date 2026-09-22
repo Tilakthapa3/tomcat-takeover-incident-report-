@@ -1,9 +1,9 @@
 # Tomcat Takeover — Incident Report
 
-**Platform:** CyberDefenders (Blue Team Lab)
-**Category:** Network Forensics
-**Tool:** Wireshark
-**Analyst:** Tilak Thapa
+- **Platform:** CyberDefenders (Blue Team Lab)
+- **Category:** Network Forensics
+- **Tool:** Wireshark
+- **Analyst:** Tilak Thapa
 
 ## Summary
 An attacker scanned a web server, found an Apache Tomcat admin panel, logged in with weak credentials, uploaded a malicious file to get a reverse shell, and set up persistence. I analyzed the PCAP to reconstruct the attack.
